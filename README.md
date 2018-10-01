@@ -119,7 +119,7 @@
   - インフラは自分が中心となって取り組み、開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAMの権限設定等を行う。
   - BitbucketPipelinesを用いてPHPUnit実行→Herokuデプロイを行うCI環境を整備。CI用のDockerイメージも作成。
 
-#### モバイルアプリ+APIサーバ改修 (受託)
+### モバイルアプリ+APIサーバ改修 (受託)
 
 - 使用技術
   - Cordova
