@@ -2,13 +2,13 @@
 
 ## 基本情報
 
-| key         | value                                            |
-| ----------- | ------------------------------------------------ |
-| Name        | dyoshikawa                                       |
-| Medium      | [@dyoshikawa](https://medium.com/@dyoshikawa)    |
-| Twitter     | [@dyoshikawa](https://twitter.com/dyoshikawa)    |
-| Qiita       | [dyoshikawa](https://qiita.com/dyoshikawa)       |
-| Speakerdeck | [dyoshikawa](https://speakerdeck.com/dyoshikawa) |
+| key         | value                                             |
+| ----------- | ------------------------------------------------- |
+| Name        | dyoshikawa                                        |
+| Medium      | [@dyoshikawa](https://medium.com/@dyoshikawa)     |
+| Twitter     | [@dyoshikawa](https://twitter.com/dyoshikawa1993) |
+| Qiita       | [dyoshikawa](https://qiita.com/dyoshikawa)        |
+| Speakerdeck | [dyoshikawa](https://speakerdeck.com/dyoshikawa)  |
 
 ## スキル
 
