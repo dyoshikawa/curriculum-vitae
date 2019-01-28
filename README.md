@@ -21,7 +21,7 @@
 - **JavaScript**
 - TypeScript
 - **Java**
-- Golang
+- Go
 
 ### フレームワーク/プラットフォーム
 
@@ -61,7 +61,7 @@
 - React
   - （理由）
   - Vue と比較してイミュータブル重視、TypeScript 使用時に JSX で型チェックが効く → 堅い開発が可能そうに思える
-  - React Native, React VR が気になる
+  - React Native, React VR の存在
 
 ## 興味はあるが（あまり）手を着けられていないもの
 
