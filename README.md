@@ -67,17 +67,17 @@
 
 ### 超シンプル家計簿
 
-- React, Firebase
 - [デモ](https://cho-simple-kakiebo.firebaseapp.com)
-- [GitHub](https://github.com/dyoshikawa/cho-simple-kakeibo)
+- React, Firebase
+  - [GitHub](https://github.com/dyoshikawa/cho-simple-kakeibo)
 
 ### AWS Serverless Uploader
 
-- フロントエンド React, Netlify
-- バックエンド AWS APIGateway, Lambda（Go）, DynamoDB
 - [デモ](https://aws-serverless-uploader.netlify.com/)
-- フロントエンドソース [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-frontend)
-- バックエンドソース [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-go)
+- フロントエンド React, Netlify
+  - [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-frontend)
+- バックエンド AWS APIGateway, Lambda（Go）, DynamoDB
+  - [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-go)
 
 ## 興味はあるが（あまり）手を着けられていないもの
 
