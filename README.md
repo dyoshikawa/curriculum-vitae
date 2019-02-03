@@ -54,7 +54,7 @@
   - （理由）
   - 業務で動的言語を書くことが多いので、静的型付き言語を書く感覚も養うため
   - シンプルな言語仕様、パフォーマンスの良さ、コンパイルが非常に早い等ランタイムの特徴に魅力を感じる
-- サーバーレスアーキテクチャ（AWS APIGateway, Lambda, DynamoDB を用いた API 開発）
+- サーバーレスアーキテクチャ（AWS APIGateway, Lambda, DynamoDB or Firebase）
   - （理由）
   - インフラは自分で頑張るよりクラウドサービスの凄腕インフラエンジニア達に任せた方が合理的ではと思い始めた
   - マイクロサービスアーキテクチャとの親和性が高い
@@ -62,6 +62,22 @@
   - （理由）
   - Vue と比較してイミュータブル重視、TypeScript 使用時に JSX で型チェックが効く → 堅い開発が可能そうに思える
   - React Native, React VR の存在
+
+## 個人開発の成果物
+
+### 超シンプル家計簿
+
+- React, Firebase
+- [デモ](https://cho-simple-kakiebo.firebaseapp.com)
+- [GitHub](https://github.com/dyoshikawa/cho-simple-kakeibo)
+
+### AWS Serverless Uploader
+
+- フロントエンド React, Netlify
+- バックエンド AWS APIGateway, Lambda（Go）, DynamoDB
+- [デモ](https://aws-serverless-uploader.netlify.com/)
+- フロントエンドソース [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-frontend)
+- バックエンドソース [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-go)
 
 ## 興味はあるが（あまり）手を着けられていないもの
 
