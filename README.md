@@ -4,7 +4,6 @@
 
 | key         | value                                             |
 | ----------- | ------------------------------------------------- |
-| Name        | dyoshikawa                                        |
 | Medium      | [@dyoshikawa](https://medium.com/@dyoshikawa)     |
 | Twitter     | [@dyoshikawa](https://twitter.com/dyoshikawa1993) |
 | Qiita       | [dyoshikawa](https://qiita.com/dyoshikawa)        |
@@ -102,50 +101,74 @@
 
 ### マッチングサービス新規開発（受託）
 
-- 使用技術
-  - PHP（Laravel）
-  - JavaScript（Vue.js）
-  - AWS Elastic Beanstalk
-  - CircleCI
+#### 使用技術
+
+- PHP（Laravel）
+- JavaScript（Vue.js）
+- AWS Elastic Beanstalk
+- AWS S3
+- AWS Cloud Flont
+- Docker
+- Bitbucket Pipelines
+
+#### チーム構成
+
+- リーダー兼バックエンドエンジニア 1 名
+- フロントエンドエンジニア 2 名（私）
+
+#### 私のポジション
+
+- フロントエンドエンジニア。
+- Vue+Vuex+VueRouter を用いた SPA 実装が主だが、クラウドインフラ・CI 周りの整備については主導（社内では比較的私が詳しかったため）。
+- Laravel API サーバの設計・実装は担当外。API の仕様を詰める際は意見を出している。
 
 ### Web 通知サービスのリプレイス （自社）
 
-- 使用技術
-  - PHP（Laravel, PHPUnit）
-  - JavaScript（Vue.js, Jest）
-  - Heroku
-  - CircleCI
-- ポジション/仕事内容
-  - 技術選定・設計から中心となって関わる。
-  - 開発についてもフロントエンド・サーバーサイド・インフラ・CI 整備まで一人で担当。
-  - サービスの管理画面が複雑だったため、SPA 化の必要性を感じ、Laravel オンリーの構成を Vue.js（SPA）+Laravel（API サーバ）に変更。インフラについては、一人プロジェクトであり手間をかけられないため、PaaS である Heroku を選定。
-  - 品質を保つために CircleCI でテストコード（PHPUnit、Jest）を回してからデプロイするように整備。
-  - コード規約も PHPCodeSniffer、PHPStan、ESLint で自動監視。
-  - 自社では CI デプロイの整備やテストコードを書く文化が浸透していないため、導入技術は社内で共有。
+#### 使用技術
+
+- PHP（Laravel, PHPUnit）
+- JavaScript（Vue.js, Jest）
+- Heroku
+- CircleCI
+
+#### ポジション/仕事内容
+
+- 技術選定・設計から中心となって関わる。
+- 開発についてもフロントエンド・サーバーサイド・インフラ・CI 整備まで一人で担当。
+- サービスの管理画面が複雑だったため、SPA 化の必要性を感じ、Laravel オンリーの構成を Vue.js（SPA）+Laravel（API サーバ）に変更。インフラについては、一人プロジェクトであり手間をかけられないため、PaaS である Heroku を選定。
+- 品質を保つために CircleCI でテストコード（PHPUnit、Jest）を回してからデプロイするように整備。
+- コード規約も PHPCodeSniffer、PHPStan、ESLint で自動監視。
+- 自社では CI デプロイの整備やテストコードを書く文化が浸透していないため、導入技術は社内で共有。
 
 ### SNS サービスの新規開発 （自社）
 
-- 使用技術
-  - iOS, Android
-  - PHP （Laravel）
-  - Heroku
-  - AWS
-  - BitbucketPipelines CI
-- ポジション/仕事内容
-  - サーバサイドアプリからインフラ領域までを担当。
-  - サーバーサイドはチームの一員として DB 設計から Laravel の API 開発まで関わる。
-  - インフラは自分が中心となって取り組み、開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAM の権限設定等を行う。
-  - BitbucketPipelines を用いて PHPUnit 実行 →Heroku デプロイを行う CI 環境を整備。CI 用の Docker イメージも作成。
+#### 使用技術
+
+- iOS, Android
+- PHP （Laravel）
+- Heroku
+- AWS
+- BitbucketPipelines CI
+
+#### ポジション/仕事内容
+
+- サーバサイドアプリからインフラ領域までを担当。
+- サーバーサイドはチームの一員として DB 設計から Laravel の API 開発まで関わる。
+- インフラは自分が中心となって取り組み、開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAM の権限設定等を行う。
+- BitbucketPipelines を用いて PHPUnit 実行 →Heroku デプロイを行う CI 環境を整備。CI 用の Docker イメージも作成。
 
 ### モバイルアプリ+API サーバ改修 （受託）
 
-- 使用技術
-  - Cordova
-  - AngularJS
-  - Java （Struts2）
-  - MySQL
-- ポジション/仕事内容
-  - フルスタックエンジニア。
-  - Cordova/Monaca を用いたモバイルアプリ開発。
-  - Java を用いた API サーバ開発。
-  - 自社からは一人で担当。要件定義からテストまで携わる。
+#### 使用技術
+
+- Cordova
+- AngularJS
+- Java （Struts2）
+- MySQL
+
+#### ポジション/仕事内容
+
+- フルスタックエンジニア。
+- Cordova/Monaca を用いたモバイルアプリ開発。
+- Java を用いた API サーバ開発。
+- 自社からは一人で担当。要件定義からテストまで携わる。
