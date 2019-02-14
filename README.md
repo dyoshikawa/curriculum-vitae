@@ -109,7 +109,7 @@
 - AWS S3
 - AWS Cloud Flont
 - Docker
-- Bitbucket Pipelines
+- Bitbucket PIpelines
 
 #### チーム構成
 
@@ -119,56 +119,71 @@
 #### 私のポジション
 
 - フロントエンドエンジニア。
-- Vue+Vuex+VueRouter を用いた SPA 実装が主だが、クラウドインフラ・CI 周りの整備については主導（社内では比較的私が詳しかったため）。
-- Laravel API サーバの設計・実装は担当外。API の仕様を詰める際は意見を出している。
+- Vue+Vuex+VueRouter を用いた SPA 実装が主ですが、クラウドインフラ・CI 周りの整備については私が主導しました（社内では比較的私が詳しかったため）。
+- Laravel API サーバの設計・実装はリーダーの担当領域でしたが、API の仕様を詰める際は意見を出します。
 
 ### Web 通知サービスのリプレイス （自社）
 
 #### 使用技術
 
-- PHP（Laravel, PHPUnit）
-- JavaScript（Vue.js, Jest）
+- PHP(Laravel, PHPUnit)
+- JavaScript(Vue.js, Jest)
 - Heroku
 - CircleCI
 
+#### チーム構成
+
+- フルスタックエンジニア 1 名（私）
+
 #### ポジション/仕事内容
 
-- 技術選定・設計から中心となって関わる。
-- 開発についてもフロントエンド・サーバーサイド・インフラ・CI 整備まで一人で担当。
-- サービスの管理画面が複雑だったため、SPA 化の必要性を感じ、Laravel オンリーの構成を Vue.js（SPA）+Laravel（API サーバ）に変更。インフラについては、一人プロジェクトであり手間をかけられないため、PaaS である Heroku を選定。
-- 品質を保つために CircleCI でテストコード（PHPUnit、Jest）を回してからデプロイするように整備。
-- コード規約も PHPCodeSniffer、PHPStan、ESLint で自動監視。
-- 自社では CI デプロイの整備やテストコードを書く文化が浸透していないため、導入技術は社内で共有。
+- 技術選定・設計から中心となって関わり、実装もフロントエンド・サーバーサイド・インフラ・CI 整備まで一人で担当。
+- サービスの管理画面が複雑だったため、SPA 化の必要性を感じ、Laravel オンリーの構成を Vue.js(SPA)+Laravel(API サーバ)に変更。
+- インフラについては、一人プロジェクトであり手間をかけられないため、PaaS である Heroku を選定。また、品質を保つために CircleCI でテストコード(PHPUnit、Jest)を回してからデプロイするように整備。
+- コード規約は PHPCodeSniffer、PHPStan、ESLint で自動監視。
+- 社内では CI デプロイの整備やテストコードを書く文化が浸透していないため、毎月の会議で導入技術について共有するようにしています。
 
 ### SNS サービスの新規開発 （自社）
 
+自社サービスの SNS を 0→1 開発中。
+
 #### 使用技術
 
-- iOS, Android
-- PHP （Laravel）
+- OS, Android アプリ
+- PHP Laravel
+- Postgres
 - Heroku
-- AWS
-- BitbucketPipelines CI
+- AWS S3, CloudFront, SNS
+- Bitbucket Pipelines
+
+#### チーム構成
+
+- iOS エンジニア 1 名
+- バックエンドエンジニア 2 名（私）
 
 #### ポジション/仕事内容
 
-- サーバサイドアプリからインフラ領域までを担当。
-- サーバーサイドはチームの一員として DB 設計から Laravel の API 開発まで関わる。
-- インフラは自分が中心となって取り組み、開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAM の権限設定等を行う。
-- BitbucketPipelines を用いて PHPUnit 実行 →Heroku デプロイを行う CI 環境を整備。CI 用の Docker イメージも作成。
+- バックエンドエンジニア。
+- RDB 設計は主導する立場ではありませんが意見は出しています。
+- Laravel を用いた API サーバの設計・実装を行っています。
+- インフラ周りは私が主導しており、チームの人数が少数であったことから、サーバ運用の手間を極力減らしたいと思い、Heroku をメインとして足りない機能を AWS のサービスで補うというインフラ選定を行いました。
+- 開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAM の権限設定等を行いました。
+- Bitbucket Pipelines を用いて PHPUnit 実行 →Heroku デプロイを行う CI 環境を整備しました。CI 用の Dockerfile 作成も担当しました。
+- インフラについては私がメインで選定しました。チームの人数が少数であったことから、サーバ運用の手間を極力減らしたいと思い、Heroku をメインとして足りない機能を AWS のサービスで補うというインフラ選定を行いました。
 
 ### モバイルアプリ+API サーバ改修 （受託）
 
+発注元の自社サービス改修プロジェクト。
+
 #### 使用技術
 
-- Cordova
-- AngularJS
-- Java （Struts2）
+- Cordova モバイルアプリ
+- Java Struts2
 - MySQL
 
 #### ポジション/仕事内容
 
 - フルスタックエンジニア。
-- Cordova/Monaca を用いたモバイルアプリ開発。
-- Java を用いた API サーバ開発。
-- 自社からは一人で担当。要件定義からテストまで携わる。
+- Cordova/Monaca を用いたモバイルアプリ開発、Java を用いた API サーバ開発を行っていました。
+- 社内で私一人で担当していたため、要件定義からテストまで従事しており、要件や納期の調整も行いましたので技術以外の面も伸ばせたかなと思います。
+- Cordova は要領を掴むまでかなり苦戦しましたが、バックエンド一辺倒だった自分のスキルの幅が広がった点は良かったと思っています。
