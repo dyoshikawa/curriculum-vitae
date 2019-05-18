@@ -105,70 +105,62 @@
 
 - PHP（Laravel）
 - JavaScript（Vue.js）
-- AWS Elastic Beanstalk
+- AWS ECS Fargate
+- AWS ALB
+- AWS CodeDeploy
 - AWS S3
-- AWS Cloud Flont
+- AWS Cloud Front
 - Docker
-- Bitbucket PIpelines
+- Bitbucket Pipelines
 
 #### チーム構成
 
-- リーダー兼バックエンドエンジニア 1 名
-- フロントエンドエンジニア 2 名（私）
+- リーダー兼バックエンドエンジニア1名
+- フロントエンドエンジニア1名
+- フルスタックエンジニア1名（私）
 
-#### 私のポジション
+#### ポジション
 
-- フロントエンドエンジニア。
-- Vue+Vuex+VueRouter を用いた SPA 実装が主ですが、クラウドインフラ・CI 周りの整備については私が主導しました（社内では比較的私が詳しかったため）。
-- Laravel API サーバの設計・実装はリーダーの担当領域でしたが、API の仕様を詰める際は意見を出します。
+フルスタックエンジニア
 
-### Web 通知サービスのリプレイス （自社）
+#### 仕事内容
 
-#### 使用技術
-
-- PHP(Laravel, PHPUnit)
-- JavaScript(Vue.js, Jest)
-- Heroku
-- CircleCI
-
-#### チーム構成
-
-- フルスタックエンジニア 1 名（私）
-
-#### 私のポジション
-
-- 技術選定・設計から中心となって関わり、実装もフロントエンド・サーバーサイド・インフラ・CI 整備まで一人で担当。
-- サービスの管理画面が複雑だったため、SPA 化の必要性を感じ、Laravel オンリーの構成を Vue.js(SPA)+Laravel(API サーバ)に変更。
-- インフラについては、一人プロジェクトであり手間をかけられないため、PaaS である Heroku を選定。また、品質を保つために CircleCI でテストコード(PHPUnit、Jest)を回してからデプロイするように整備。
-- コード規約は PHPCodeSniffer、PHPStan、ESLint で自動監視。
-- 社内では CI デプロイの整備やテストコードを書く文化が浸透していないため、毎月の会議で導入技術について共有するようにしています。
+- Vue+Vuex+VueRouterを用いたSPA実装
+- Laravel APIサーバの設計・実装
+- マッチングサービスのためLaravelのGuard機能を使ってマルチ認証を実装しました。
+- クラウド・CI領域については特に私が主導しました。
+- Dockerfileの作成、CIによるECRへのDockerイメージ自動プッシュ環境の整備、ECS Fargateの導入・整備を行いました。また、CodeDeployと連携を行いBlueGreenデプロイを実現しています。
 
 ### SNS サービスの新規開発 （自社）
 
 自社サービスの SNS を 0→1 開発中。
 
-#### 使用技術
-
-- OS, Android アプリ
+# 使用技術
+- iOS, Androidアプリ
 - PHP Laravel
 - Postgres
 - Heroku
 - AWS S3, CloudFront, SNS
-- Bitbucket Pipelines
+- Elasticsearch
+- BitbucketPipelines CI
 
-#### チーム構成
+# チーム構成
 
-- iOS エンジニア 1 名
-- バックエンドエンジニア 2 名（私）
+- iOSエンジニア1名
+- バックエンドエンジニア2名（私）
 
-#### 私のポジション
+# ポジション
 
-- バックエンドエンジニア。
-- RDB 設計は主導する立場ではありませんが意見は出しています。
-- Laravel を用いた API サーバの設計・実装を行っています。
-- インフラ周りは私が主導しており、チームの人数が少数であったことから、サーバ運用の手間を極力減らしたいと思い、Heroku をメインとして足りない機能を AWS のサービスで補うというインフラ選定を行いました。
-- 開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAM の権限設定等を行いました。
-- Bitbucket Pipelines を用いて PHPUnit 実行 →Heroku デプロイを行う CI 環境を整備しました。CI 用の Dockerfile 作成も担当しました。
+バックエンドエンジニア
+
+# 仕事内容
+
+- RDB設計、 Laravelを用いたAPIサーバの設計・実装を行っています。
+- インフラ領域は特に私が主導しています。チームの人数が少数であったことから、サーバ運用の手間を極力減らしたいと思い、Herokuをメインとして足りない機能をAWSのサービスで補うというインフラ選定を行いました。
+- 開発環境・本番環境構築・AWS S3/CluoudFront/SNS のセットアップ・AWS IAMの権限設定等を行いました。
+- 開発環境はDocker化を行い、AWSのサービスもLocalStackでモック化し、ローカルで開発を完結できるよう整備しました。
+- 位置情報を含めた柔軟な検索が必要となったため、Elasticsearchをキャッチアップし導入しました。ローカル開発環境はLocalStack、本番はHerokuのBonsai Elasticsearchアドオンを使用しています。
+- BitbucketPipelinesを用いてPhanによる静的解析・PHPUnitによるテスト→Herokuデプロイを行うCI環境を整備しました。CI用のDockerfile作成も担当しました。
 
 ### モバイルアプリ+API サーバ改修 （受託）
 
