@@ -1,14 +1,5 @@
 # 職務経歴書
 
-## 基本情報
-
-| key         | value                                             |
-| ----------- | ------------------------------------------------- |
-| Medium      | [@dyoshikawa](https://medium.com/@dyoshikawa)     |
-| Twitter     | [@dyoshikawa](https://twitter.com/dyoshikawa1993) |
-| Qiita       | [dyoshikawa](https://qiita.com/dyoshikawa)        |
-| Speakerdeck | [dyoshikawa](https://speakerdeck.com/dyoshikawa)  |
-
 ## スキル
 
 太字は業務経験有。
@@ -28,7 +19,7 @@
 - Rails5
 - Gin
 - **Vue.js**
-- React
+- **React Redux**
 - **AngularJS**
 - **Cordova**
 
@@ -62,13 +53,17 @@
   - Vue と比較してイミュータブル重視、TypeScript 使用時に JSX で型チェックが効く → 堅い開発が可能そうに思える
   - React Native, React VR の存在
 
-## 個人開発の成果物
+## 業務外の成果物
 
-### 超シンプル家計簿
+### ブログなど
 
-- [デモ](https://cho-simple-kakiebo.firebaseapp.com)
-- React, Firebase
-  - [GitHub](https://github.com/dyoshikawa/cho-simple-kakeibo)
+| key         | value                                             |
+| ----------- | ------------------------------------------------- |
+| Medium      | [@dyoshikawa](https://medium.com/@dyoshikawa)     |
+| Twitter     | [@dyoshikawa](https://twitter.com/dyoshikawa1993) |
+| Qiita       | [dyoshikawa](https://qiita.com/dyoshikawa)        |
+| Speakerdeck | [dyoshikawa](https://speakerdeck.com/dyoshikawa)  |
+| はてなブログ  | [dyoshikawa's blog](http://dyoshikawa.hatenablog.com/)   |
 
 ### AWS Serverless Uploader
 
