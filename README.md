@@ -9,7 +9,7 @@
 - **PHP**
 - Ruby
 - **JavaScript**
-- TypeScript
+- **TypeScript**
 - **Java**
 - Go
 
