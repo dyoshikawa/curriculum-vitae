@@ -56,9 +56,9 @@
 
 | Date      | Event                                                                                   | Slide                                                                                |
 | --------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| 2017/12/9 | [広フロ交流会+忘年会]（https://hfe.connpass.com/event/72073/）                          |                                                                                      |
-| 2018/1/9  | [【ハンズオン】Docker 超入門]（https://h-kkb.connpass.com/event/74291/）                | [hkkb-180109-start-docker]（https://github.com/dyoshikawa/hkkb-180109-start-docker） |
-| 2018/3/26 | [CloudGarage Deep Meetup in Hiroshima]（https://cloudgarage.connpass.com/event/81202/） |                                                                                      |
+| 2017/12/9 | [広フロ交流会+忘年会](https://hfe.connpass.com/event/72073/)                               |                                                                                      |
+| 2018/1/9  | [【ハンズオン】Docker 超入門](https://h-kkb.connpass.com/event/74291/)                     | [hkkb-180109-start-docker](https://github.com/dyoshikawa/hkkb-180109-start-docker)   |
+| 2018/3/26 | [CloudGarage Deep Meetup in Hiroshima](https://cloudgarage.connpass.com/event/81202/)   |                                                                                      |
 
 ## 職務経歴
 
