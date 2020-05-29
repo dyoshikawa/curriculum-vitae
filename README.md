@@ -1,38 +1,27 @@
 # 職務経歴書
 
-## スキル
-
-太字は業務経験有。
-
 ### 言語
 
-- **PHP**
+- PHP
 - Ruby
-- **JavaScript**
-- **TypeScript**
-- **Java**
-- Go
+- JavaScript
+- TypeScript
+- Java
 
 ### フレームワーク/プラットフォーム
 
-- **Laravel5**
-- Rails5
-- Gin
-- **Vue.js**
-- **React Redux**
-- **AngularJS**
-- **Cordova**
+- Laravel
+- Ruby on Rails
+- Vue.js
+- React + Redux
+- AngularJS
 
 ### その他
 
-- **Git**
-- **AWS**
-- GCP
-- Firebase
-- **Heroku**
-- **Vagrant**
-- **Docker**
-- **CircleCI**
+- AWS
+- Docker
+- Kubernetes
+- VirtualBox + Vagrant
 
 ## 強み
 
@@ -40,18 +29,8 @@
 
 ## 興味があり個人的に検証しているもの
 
-- Go
-  - （理由）
-  - 業務で動的言語を書くことが多いので、静的型付き言語を書く感覚も養うため
-  - シンプルな言語仕様、パフォーマンスの良さ、コンパイルが非常に早い等ランタイムの特徴に魅力を感じる
-- サーバーレスアーキテクチャ（AWS APIGateway, Lambda, DynamoDB or Firebase）
-  - （理由）
-  - インフラは自分で頑張るよりクラウドサービスの凄腕インフラエンジニア達に任せた方が合理的ではと思い始めた
-  - マイクロサービスアーキテクチャとの親和性が高い
-- React
-  - （理由）
-  - Vue と比較してイミュータブル重視、TypeScript 使用時に JSX で型チェックが効く → 堅い開発が可能そうに思える
-  - React Native, React VR の存在
+- Rust
+- Elm
 
 ## 業務外の成果物
 
@@ -72,13 +51,6 @@
 - バックエンド AWS APIGateway, Lambda（Go）, DynamoDB
   - [GitHub](https://github.com/dyoshikawa/aws-serverless-uploader-go)
 
-## 興味はあるが（あまり）手を着けられていないもの
-
-- Scala, Haskell, Rust
-- Fluentd/ElasticSearch/Kibana を用いたログ分析
-- 機械学習 （各クラウドサービスの API/TensorFlow/Keras）
-- マイクロサービス （gRPC）
-
 ## 登壇歴
 
 | Date      | Event                                                                                   | Slide                                                                                |
@@ -89,9 +61,38 @@
 
 ## 職務経歴
 
-### 2017/11 - : Web 開発企業
+### 2019/08 - : 自社サービス企業
 
-職務: フルスタックエンジニア
+#### 自社製SFAの改修・新機能開発
+
+##### 使用技術
+
+- Ruby (Rails)
+- TypeScript (React + Redux)
+- AWS
+  - EKS/RDS/Elasticache/S3など
+- Docker
+- GitHub
+
+##### チーム構成・ポジション
+
+- チームリード兼フロントエンドエンジニア1名
+- フルスタックエンジニア1名
+- バックエンドエンジニア1名（私）
+- デザイナー1名
+- QAエンジニア1名
+
+##### 仕事内容
+
+- Webバックエンド領域をメインで担当しました。
+  - Ruby on Railsのアプリケーションレイヤー開発。 
+  - MySQLテーブル設計・改修。
+- SQL実行時間の計測・チューニングを行いました。
+  - パフォーマンス要件がシビアだったため。
+  - 集計結果を保存するテーブル非正規化設計を行いました。
+  - 改修前、レスポンスに20~30秒かかっていた機能を2秒程度に短縮しました。
+
+### 2017/11 - : 受託開発企業
 
 ### マッチングサービス新規開発（受託）
 
