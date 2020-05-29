@@ -30,6 +30,7 @@
 ## 興味があり個人的に検証しているもの
 
 - Rust
+  - actix-web/chrono/tokio/serdeなど
 - Elm
 
 ## 業務外の成果物
