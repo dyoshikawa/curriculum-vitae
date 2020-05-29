@@ -69,6 +69,7 @@
 
 - Ruby (Rails)
 - TypeScript (React + Redux)
+- MySQL
 - AWS
   - EKS/RDS/Elasticache/S3など
 - Docker
@@ -85,7 +86,7 @@
 ##### 仕事内容
 
 - Webバックエンド領域をメインで担当しました。
-  - Ruby on Railsのアプリケーションレイヤー開発。 
+  - Ruby on Railsのアプリケーションレイヤー開発。RSpecを用いたテストケース記述。
   - MySQLテーブル設計・改修。
 - SQL実行時間の計測・チューニングを行いました。
   - パフォーマンス要件がシビアだったため。
